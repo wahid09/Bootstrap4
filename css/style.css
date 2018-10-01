@@ -1,0 +1,9 @@
+.transfer {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+    border-bottom: 3px solid #008ed6;
+    background: #292b2c;
+    opacity: 0.8;
+}
