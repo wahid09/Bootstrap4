@@ -1,9 +1,21 @@
-.transfer {
-    background: rgba(0, 0, 0, 0.5);
+body {
+    background: #333;
+    color: #fff;
 }
 
 .navbar {
     border-bottom: 3px solid #008ed6;
     background: #292b2c;
     opacity: 0.8;
+}
+
+#home-section {
+    background: url(../img/vk.jpeg) no-repeat center top;
+    background-size: cover;
+    min-height: 700px;
+
+    .dark-overlay {
+        background: rgba(0, 0, 0, 0.7);
+        min-height: 700px;
+    }
 }
