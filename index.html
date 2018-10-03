@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <title>Bootstrap 4</title>
+    <title>Social Promotion</title>
     <!-- Css style -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -17,7 +17,7 @@
 <body>
     <nav class="navbar navbar-dark navbar-expand-md fixed-top">
         <div class="container">
-            <a href="" class="navbar-brand">ShoppingBD</a>
+            <a href="#home-section" class="navbar-brand">SocialPromotion</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -27,6 +27,7 @@
                     <li class="nav-item"><a class="nav-link" href="#explore-section">Explore</a></li>
                     <li class="nav-item"><a class="nav-link" href="#create-section">Create</a></li>
                     <li class="nav-item"><a class="nav-link" href="#share-section">Share</a></li>
+                    <li class="nav-item"><a class="nav-link" href="" class="btn btn-outline-light" data-toggle="modal" data-target="#contactModal">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -139,7 +140,7 @@
     <!-- Create section -->
     <section id="create-section" class="py-5 bg-primary text-center">
         <div class="container">
-            <h2 class="d-4">Create</h2>
+            <h2 class="display-4">Create</h2>
             <p class="lead text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <a href="" class="btn btn-outline-light">Find more</a>
         </div>
@@ -176,11 +177,103 @@
         </div>
     </section>
 
+    <!-- Share head section -->
+    <section id="share-section" class="p-5 text-center bg-primary">
+        <div class="container">
+            <h2 class="display-4">Share</h2>
+            <p class="lead text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="" class="btn btn-outline-light">Find out more</a>
+        </div>
+    </section>
+    <!-- Share main section -->
+    <section id="share-main-section" class="bg-light py-5 text-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <img src="img/share.jpeg" class="img-fluid rounded mt-2" alt="what you want to share your client">
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <h3>Share what you create</h3>
+                    <p class="lead text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="d-flex flex-row">
+                        <div class="align-self-start p-4 mt-2">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <div>
+                            <p class="lead align-self-end p-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="align-self-start p-4 mt-2">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <div>
+                            <p class="lead align-self-end p-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer id="footer-section" class="text-center text-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Our Location</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3651.8800778706704!2d90.38352841488293!3d23.75165548458873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s58%2FD+west+raja+baza+panthapath+dhaka-1215!5e0!3m2!1sen!2sbd!4v1538547272208" width="100%" height="75%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <h3>SocialPromotion</h3>
+                    <p>Copyright &copy; 2018</p>
+                    <span>Designed By: <a href="https://www.facebook.com/wahidullah09" target="_blank" class="ml-2 text-warning">Wahid Ullah</a></span><br><br>
+                    <a href="" class="btn btn-outline-light" data-toggle="modal" data-target="#contactModal">Contact Us</a>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Contact Us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://formspree.io/wucse09@gmail.com" method="post">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="4" cols="63"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Sends</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Script tag start here -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="js/navbar-fixed.js"></script>
+    <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+    <script src="js/navbar-fixed.js "></script>
 </body>
 
 </html>
